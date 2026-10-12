@@ -1,0 +1,10 @@
+USD = input("Enter the amount in USD: ")
+exchange_rate = float(input("Enter the exchange rate: "))
+ETB = float(USD) * exchange_rate
+print ("\n=======================================")
+print ("      CURRENCY EXCHANGE ")
+print ("=======================================")
+print ("\n USD AMOUNT: " + USD)
+print ("\n Exchange Rate: 1 USD = " + str(f"{exchange_rate:.2f}") + " ETB")
+print ("\n ETB AMOUNT: " + str(f"{ETB:.2f}"))
+print ("=======================================")

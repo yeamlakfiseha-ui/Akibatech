@@ -1,0 +1,16 @@
+student_name = input("enter your Student name: ")
+python_score = input("enter your python score: ")
+english_score = input("enter your python score: ")
+Mathematics_score = input("enter your python score: ")
+average = (int(python_score)+int(english_score) + int(Mathematics_score))/3
+print ("\n=======================================")
+print ("      STUDENT RESULT")
+print ("=======================================")
+print ("\nStudent: "+ student_name)
+print ("\nPython:  "+python_score)
+print ("English:  "+ english_score)
+print ("Mathematics:  " + Mathematics_score)
+print ("------------------")
+print ("Average: " + str(f"{average:.2f}"))
+print ("=======================================")
+
